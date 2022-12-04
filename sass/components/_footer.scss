@@ -1,0 +1,15 @@
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: var(--footer-bgc-color);
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.footer-concact {
+    width: 570px;
+}

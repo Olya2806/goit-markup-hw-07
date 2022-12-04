@@ -13,8 +13,8 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="stylesheet" href="./sass/main.css" />
+    
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
 
   <body>
@@ -30,21 +30,20 @@
           </ul>
         </nav>
         <ul class="auth-nav list">
-          <li class="item">
-            <a href="mailto:info@devstudio.com" class="contact-link link">
-              <svg class="contact-icons" width="16" height="12">
+          <li class="auth-nav__item">
+            <a href="mailto:info@devstudio.com" class="auth-nav__link link">
+              <svg class="auth-nav__icons" width="16" height="12">
                 <use href="./images/symbol-defs.svg#icon-envelope"></use>
               </svg>
               info@devstudio.com
             </a>
           </li>
-          <li class="item">
-            <a href="tel:+380961111111" class="contact-link link">
-              <svg class="contact-icons" width="10" height="16">
+          <li class="auth-nav__item">
+            <a href="tel:+380961111111" class="auth-nav__link link">
+              <svg class="auth-nav__icons" width="10" height="16">
                 <use href="./images/symbol-defs.svg#icon-smartphone"></use>
               </svg>
-              +38 096 111 11 11</a
-            >
+              +38 096 111 11 11</a>
           </li>
         </ul>
       </div>
@@ -72,7 +71,7 @@
             </li>
           </ul>
           <ul class="projects list">
-            <li class="item">
+            <li class="projects-item">
               <a href="#" class="projects-link link">
                 <div class="projects-wrapper"><img src="./images/img.jpg" alt="Екран ноутбука" width="370" />
                   <div class="projects-example">
@@ -86,7 +85,7 @@
                 </div>
               </a>
             </li>
-            <li class="item">
+            <li class="projects-item">
               <a href="#" class="projects-link link">
                 <div class="projects-wrapper"><img src="./images/imgone.jpg" alt="Двоє людей грають у баскетбол" width="370" />
                   <div class="projects-example">
@@ -101,7 +100,7 @@
                 </div>
               </a>
             </li>
-            <li class="item">
+            <li class="projects-item">
               <a href="" class="projects-link link">
                 <div class="projects-wrapper"><img src="./images/imgtwo.jpg" alt="Риба та емблема ресторану" width="370" />
                   <div class="projects-example">
@@ -116,7 +115,7 @@
                 </div>
               </a>
             </li>
-            <li class="item">
+            <li class="projects-item">
               <a href="" class="projects-link link">
                 <div class="projects-wrapper"><img src="./images/imgthree.jpg" alt="Навушники" width="370" />
                   <div class="projects-example">
@@ -131,7 +130,7 @@
                 </div>
               </a>
             </li>
-            <li class="item">
+            <li class="projects-item">
               <a href="" class="projects-link link">
                 <div class="projects-wrapper"><img src="./images/imgfour.jpg" alt="Дві коробки" width="370" />
                   <div class="projects-example">
@@ -146,7 +145,7 @@
                 </div>
               </a>
             </li>
-            <li class="item">
+            <li class="projects-item">
               <a href="" class="projects-link link">
                 <div class="projects-wrapper"><img src="./images/imgfive.jpg" alt="Екран комп'ютера" width="370" />
                   <div class="projects-example">
@@ -161,7 +160,7 @@
                 </div>
               </a>
             </li>
-            <li class="item">
+            <li class="projects-item">
               <a href="" class="projects-link link">
                 <div class="projects-wrapper"><img src="./images/imgsix.jpg" alt="Журнал" width="370" />
                   <div class="projects-example">
@@ -176,7 +175,7 @@
                 </div>
               </a>
             </li>
-            <li class="item">
+            <li class="projects-item">
               <a href="" class="projects-link link">
                 <div class="projects-wrapper"><img src="./images/imgseven.jpg" alt="Етикетка" width="370" />
                   <div class="projects-example">
@@ -191,7 +190,7 @@
                 </div>
               </a>
             </li>
-            <li class="item">
+            <li class="projects-item">
               <a href="" class="projects-link link">
                <div class="projects-wrapper"> <img src="./images/imgeight.jpg" alt="Ноутбук" width="370" />
                 <div class="projects-example">
@@ -216,14 +215,15 @@
         <div>
           <a href="/" class="logo"> <span class="logo-accent">Web</span>Studio </a>
           <address class="address">
-            <ul class="address-list list">
-              <li class="item">
-                <a href="https://goo.gl/maps/12dzC33AXfoqpjeh8" class="link first-item">м. Київ, пр-т Лесі Українки, 26</a>
+            <ul class="address__list list">
+              <li class="address__item">
+                <a href="https://goo.gl/maps/12dzC33AXfoqpjeh8" class="address__link first-item">м. Київ, пр-т Лесі Українки,
+                  26</a>
               </li>
-              <li class="item">
-                <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
+              <li class="address__item">
+                <a href="mailto:info@devstudio.com" class="address__link">info@devstudio.com</a>
               </li>
-              <li class="item"><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
+              <li class="address__item"><a href="tel:+380961111111" class="address__link">+38 096 111 11 11</a></li>
             </ul>
           </address>
         </div>
